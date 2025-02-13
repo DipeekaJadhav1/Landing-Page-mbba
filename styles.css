@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: url('https://via.placeholder.com/1200x600') center/cover no-repeat;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: navy;
+    text-align: center;
+  }
+  
+  .cta-button {
+    background-color: #fb923c;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background-color: #f97316;
+    transform: scale(1.1);
+  }
+  
+  /* Sections */
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: navy;
+  }
+  
+  .section-description {
+    margin-bottom: 1.5rem;
+    color: #4b5563;
+    font-size: 1.1rem;
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .grid-container:hover{
+   color: #fdfbf9;
+   
+
+
+  }
+  
+  .card {
+    background: #8776f5;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hover-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+  
+  /* Form Section */
+  .form-section {
+    padding: 4rem 1rem;
+    background-color: #f9fafb;
+  }
+  
+  .table-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-table {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-table td {
+    padding: 0.5rem 1rem;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input:hover,
+  select:hover {
+    border-color: #6366f1;
+  }
+  
+  .footer {
+    background: navy;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
