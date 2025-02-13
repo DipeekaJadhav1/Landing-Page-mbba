@@ -7,7 +7,9 @@ Modern UI: Clean and professional layout with hover effects and smooth transitio
 Lead Generation Form: An interactive application form for collecting user details.
 Dynamic Interactivity: JavaScript validation for form inputs.
 Accessible and SEO-friendly: Includes semantic HTML and meta descriptions.
+
 Demo
+You can check out a live demo of the project here:https://unrivaled-cheesecake-8db2b4.netlify.app/ 
 
 Technologies Used
 HTML: For structuring the content.
@@ -60,7 +62,7 @@ To deploy this project on GitHub Pages:
 Push the project to a GitHub repository.
 Go to the repository's Settings > Pages.
 Select the branch and folder (main branch, /root folder).
-Click Save. Your site will be live at https://your-username.github.io/study-mbbs-abroad.
+Click Save. Your site will be live at https://github.com/DipeekaJadhav1/Landing-Page-mbba
 Contributions
 Contributions, issues, and feature requests are welcome! Feel free to fork this repository and submit a pull request.
 
